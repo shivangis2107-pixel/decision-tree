@@ -3,7 +3,7 @@ import pandas as pd
 import pickle
 
 filename = 'dtmodel.pkl'
-loaded_model = pickle.load(open(filename, 'rb'))
+loaded_model = pickle.load(open(dtmodel.pkl, 'rb'))
 
 # Define the correct column names
 columns = ['Delivery_Distance', 'Traffic_Congestion', 'Weather_Condition',
